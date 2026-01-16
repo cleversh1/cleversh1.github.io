@@ -12,145 +12,192 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            line-height: 1.6;
-            color: #2d2d2d;
-            background-color: #f4ede4;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.7;
+            color: #000;
+            background-color: #fff;
+            letter-spacing: 0.3px;
         }
 
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 80px 40px;
         }
 
         header {
             text-align: center;
-            margin-bottom: 60px;
-            padding-bottom: 30px;
-            border-bottom: 1px solid #d4c4b0;
+            margin-bottom: 80px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #000;
         }
 
         h1 {
-            font-size: 2.5rem;
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: #1a1a1a;
+            font-size: 3.5rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: #000;
+            letter-spacing: -1px;
+            font-family: 'Georgia', serif;
         }
 
         .tagline {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: #666;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            font-style: italic;
+            letter-spacing: 0.5px;
         }
 
         .links {
             display: flex;
-            gap: 20px;
+            gap: 30px;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 20px;
+            margin-top: 25px;
         }
 
         .links a {
-            color: #8b6f47;
+            color: #000;
             text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
+            font-weight: 400;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom 0.3s;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
 
         .links a:hover {
-            color: #5d4a30;
+            border-bottom: 1px solid #000;
         }
 
         section {
-            margin-bottom: 50px;
+            margin-bottom: 80px;
         }
 
         h2 {
-            font-size: 1.8rem;
-            margin-bottom: 20px;
-            color: #1a1a1a;
-            font-weight: 600;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #000;
+            font-weight: 400;
+            letter-spacing: -0.5px;
+            font-family: 'Georgia', serif;
         }
 
         .about-text {
-            font-size: 1.05rem;
-            line-height: 1.8;
-            color: #444;
+            font-size: 1.1rem;
+            line-height: 1.9;
+            color: #333;
+            max-width: 700px;
+        }
+
+        .about-text p {
+            margin-bottom: 25px;
         }
 
         .work-grid {
             display: grid;
-            gap: 25px;
-            margin-top: 20px;
+            gap: 0;
+            margin-top: 40px;
         }
 
         .work-item {
-            background: #fff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            transition: transform 0.2s, box-shadow 0.2s;
+            padding: 40px 0;
+            border-bottom: 1px solid #e0e0e0;
+            transition: padding-left 0.3s;
         }
 
         .work-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            padding-left: 15px;
+        }
+
+        .work-item:last-child {
+            border-bottom: none;
         }
 
         .work-item h3 {
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             margin-bottom: 8px;
-            color: #1a1a1a;
+            color: #000;
+            font-weight: 400;
+            letter-spacing: -0.3px;
+            font-family: 'Georgia', serif;
         }
 
         .work-meta {
-            font-size: 0.9rem;
-            color: #888;
-            margin-bottom: 12px;
+            font-size: 0.85rem;
+            color: #999;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
 
         .work-description {
-            color: #555;
-            line-height: 1.7;
+            color: #444;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            max-width: 650px;
+        }
+
+        .work-item a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 400;
+            display: inline-block;
+            margin-top: 12px;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #000;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
 
         .resume-download {
             display: inline-block;
-            background: #8b6f47;
+            background: #000;
             color: white;
-            padding: 12px 30px;
-            border-radius: 6px;
+            padding: 15px 40px;
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 400;
             transition: background 0.3s;
-            margin-top: 10px;
+            margin-top: 20px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
 
         .resume-download:hover {
-            background: #5d4a30;
+            background: #333;
         }
 
         footer {
             text-align: center;
-            padding-top: 40px;
-            border-top: 1px solid #d4c4b0;
-            color: #888;
-            font-size: 0.9rem;
+            padding-top: 60px;
+            border-top: 1px solid #000;
+            color: #999;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
         }
 
         @media (max-width: 600px) {
             h1 {
-                font-size: 2rem;
+                font-size: 2.5rem;
             }
             
             h2 {
-                font-size: 1.5rem;
+                font-size: 1.6rem;
             }
             
             .container {
-                padding: 40px 20px;
+                padding: 50px 25px;
+            }
+
+            .work-item {
+                padding: 30px 0;
             }
         }
     </style>
@@ -158,11 +205,11 @@
 <body>
     <div class="container">
         <header>
-            <h1>Charles (Charlie) Leversha</h1>
+            <h1>Charles Leversha</h1>
             <p class="tagline">Filmmaker and Data Science major building where data meets storytelling</p>
             <div class="links">
                 <a href="mailto:leversha.charles@gmail.com">Email</a>
-                <a href="https://linkedin.com/in/charles-leversha" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/charles-leversha-ab0891196" target="_blank">LinkedIn</a>
                 <a href="https://github.com/cleversh1" target="_blank">GitHub</a>
                 <a href="https://substack.com/@charliel13" target="_blank">Substack</a>
             </div>
@@ -171,11 +218,11 @@
         <section id="about">
             <h2>About</h2>
             <div class="about-text">
-                <p>After getting stuck in Australia during the pandemic, I spent five years working as an indie filmmaker, directing two shorts and a feature film, "I Fall to Pieces" (currently in post). After directing "Pieces", I realized the questions I was asking-about audiences, engagement, and impact—could be better understood with data than just pure intuition.</p>
+                <p>After getting stuck in Australia during the pandemic, I spent five years working as an indie filmmaker, directing two shorts and a feature film, "I Fall to Pieces" (currently in post). After directing "Pieces", I realized the questions I was asking—about audiences, engagement, and impact—could be better understood with data than just pure intuition.</p>
                 
-                <p style="margin-top: 15px;">Now I'm studying Data Science at the University of Michigan, adding a technical layer to my experience. I've worked in content marketing, building strategies driven by user engagement data. As Runway's first Student Ambassador at Michigan, I'm helping creators understand how AI tools can amplify their creative vision.</p>
+                <p>Now I'm studying Data Science at the University of Michigan, adding a technical layer to my experience. I've worked in content marketing, building strategies driven by user engagement data. As Runway's first Student Ambassador at Michigan, I'm helping creators understand how AI tools can amplify their creative vision.</p>
                 
-                <p style="margin-top: 15px;">I'm looking for roles where data meets storytelling, whether that's growth, marketing, product management, or building tools that help people tell stories of their own.</p>
+                <p>I'm looking for roles where data meets storytelling, whether that's growth, marketing, product management, or building tools that help people tell stories of their own.</p>
             </div>
         </section>
 
@@ -184,32 +231,32 @@
             <div class="work-grid">
                 <div class="work-item">
                     <h3>Runway Student Ambassador</h3>
-                    <div class="work-meta">University of Michigan | Jan 2026 - Present</div>
+                    <div class="work-meta">University of Michigan · Jan 2026 - Present</div>
                     <p class="work-description">Selected as Michigan's first campus representative for Runway, an AI video generation platform. Building educational programming to introduce generative AI tools to the creative community through workshops and partnerships with student organizations.</p>
                 </div>
 
                 <div class="work-item">
-                    <h3>"I Fall to Pieces" (Feature Film)</h3>
-                    <div class="work-meta">Identical Stranger Pty Ltd | Feb 2022 - Present</div>
+                    <h3>I Fall to Pieces</h3>
+                    <div class="work-meta">Feature Film · Feb 2022 - Present</div>
                     <p class="work-description">Founded a production company and directed an independent feature film with a 40-person crew across seven departments. Currently in post-production, managing financing and festival distribution strategy.</p>
                 </div>
 
                 <div class="work-item">
-                    <h3>"Speech" (Short Film)</h3>
-                    <div class="work-meta">Melbourne, Australia | May 2021 - Feb 2022</div>
+                    <h3>Speech</h3>
+                    <div class="work-meta">Short Film · May 2021 - Feb 2022</div>
                     <p class="work-description">Produced and directed an 11-minute short film with a 20-person team. Selected as a top 10 finalist at Sydney Film Festival (youngest nominee of the year) and Flickerfest. Directed two lead child actors in their screen debuts.</p>
-                    <a href="https://vimeo.com/722154005" target="_blank" style="color: #8b6f47; text-decoration: none; font-weight: 500; display: inline-block; margin-top: 10px;">Watch Film →</a>
+                    <a href="https://vimeo.com/722154005" target="_blank">Watch Film</a>
                 </div>
 
                 <div class="work-item">
                     <h3>V1 Michigan</h3>
-                    <div class="work-meta">University of Michigan | Dec 2025 - Present</div>
+                    <div class="work-meta">Marketing Team · Dec 2025 - Present</div>
                     <p class="work-description">Leading marketing initiatives for Michigan's largest startup incubator, representing teams accepted to Y Combinator. Developing content strategy and podcast series to amplify student founder stories.</p>
                 </div>
 
                 <div class="work-item">
-                    <h3>Content Marketing at Rees Group</h3>
-                    <div class="work-meta">Melbourne, Australia | Mar 2025 - Aug 2025</div>
+                    <h3>Rees Group</h3>
+                    <div class="work-meta">Content Marketing · Mar 2025 - Aug 2025</div>
                     <p class="work-description">Designed customer-centric content strategy for SME owners, using analytics to optimize messaging. Grew organic visibility from 0 to 2,000 views in 90 days while increasing click-through rates by 10%.</p>
                 </div>
             </div>
@@ -217,21 +264,21 @@
 
         <section id="resume">
             <h2>Resume</h2>
-            <p>Download my full resume for more details on my experience and projects.</p>
-            <a href="resume.pdf" class="resume-download" download>Download Resume (PDF)</a>
+            <p class="about-text">Download my full resume for more details on my experience and projects.</p>
+            <a href="resume.pdf" class="resume-download" download>Download Resume</a>
         </section>
 
         <section id="contact">
             <h2>Get in Touch</h2>
             <p class="about-text">I'm always interested in talking about film, AI, product, marketing, or building things. Don't hesitate to reach out.</p>
-            <div class="links" style="justify-content: flex-start; margin-top: 20px;">
-                <a href="mailto:leversha.charles@gmail.com">leversha.charles@gmail.com</a>
-                <a href="https://linkedin.com/in/charles-leversha" target="_blank">LinkedIn</a>
+            <div class="links" style="justify-content: flex-start; margin-top: 30px;">
+                <a href="mailto:leversha.charles@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/charles-leversha-ab0891196" target="_blank">LinkedIn</a>
             </div>
         </section>
 
         <footer>
-            <p>© 2026 Charles Leversha. Built with care in Ann Arbor, MI.</p>
+            <p>© 2026 Charles Leversha · Built in Ann Arbor, MI</p>
         </footer>
     </div>
 </body>
