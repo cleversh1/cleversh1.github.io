@@ -22,10 +22,10 @@
    ========================================================= */
 
 const CATEGORIES = [
-  "Film & Story",
-  "Product & Growth",
-  "Learning Fast",
-  "Changed My Mind"
+  "Product, Marketing & Growth",
+  "Film, Storytelling & Taste",
+  "Learning",
+  "Work"
 ];
 
 const IDEAS = [
