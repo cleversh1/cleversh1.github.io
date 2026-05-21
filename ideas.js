@@ -36,7 +36,7 @@ const IDEAS = [
     claim: "placeholder text",
     category: "Work",
     date: "2026-05-20",
-    body: `placeholder text`
+    body: `On the set of Mike Nichols' Who's Afraid of Virginia Woolf?, Nichols, the first-time film director, and Ernest Lehman `
   },
    
   {
