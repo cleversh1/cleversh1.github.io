@@ -23,7 +23,7 @@
 
 const CATEGORIES = [
   "Product, Marketing & Growth",
-  "Film, Storytelling & Taste",
+  "Film, Storytelling, Creative",
   "Learning",
   "Work"
 ];
@@ -33,7 +33,6 @@ const IDEAS = [
   /* ---- EXAMPLE — delete this block once you've written your own ---- */
   {
     title: "Who is in Charge?",
-    claim: "placeholder text",
     category: "Work",
     date: "2026-05-20",
     body: `
@@ -47,10 +46,23 @@ const IDEAS = [
     
     I told this story to my cinematographer and he never mentioned ultra-wide again.`
   },
+
+   {
+    title: "Kill Your Darlings",
+    category: "Film, Storytelling, Creative",
+    date: "2026-05-20",
+    body: `David Mamet: "A good writer gets better only by learning to cut, to remove the ornamental, the descriptive, the narrative, and especially the deeply felt and meaningful... The story remains."
+    
+    Ernest Hemingway: "Write the story, take out all the good lines, and see if it still works."
+    
+    Elmore Leonard: "I leave out the parts that readers skip."
+    
+    Truman Capote: "I believe more in the scissors than I do in the pencil."`
+  },
+
    
   {
     title: "placeholder text",
-    claim: "placeholder text",
     category: "Learning",
     date: "2026-05-20",
     body: `placeholder text`
