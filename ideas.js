@@ -32,11 +32,21 @@ const IDEAS = [
 
   /* ---- EXAMPLE — delete this block once you've written your own ---- */
   {
+    title: "Who is in Charge?",
+    claim: "placeholder text",
+    category: "Work",
+    date: "2026-05-20",
+    body: `placeholder text`
+  },
+   
+  {
     title: "placeholder text",
     claim: "placeholder text",
-    category: "Learning Fast",
+    category: "Learning",
     date: "2026-05-20",
     body: `placeholder text`
   }
+
+   
 
 ];
