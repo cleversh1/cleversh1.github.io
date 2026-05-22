@@ -70,18 +70,18 @@ const IDEAS = [
     The canonical case is Berkeley admissions in 1973. Women were admitted at lower overall rates than men. But when researchers broke the data down by department, women were in fact admitted at equal or higher rates in almost every one.
     The paradox arose because women applied disproportionately to the competitive departments - the ones with overall lower acceptance rates for everyone. The aggregate had obscured the conclusions drawn from the subgroups.
     
-    The Simpsons is an animated American sitcom that started in 1989, is still running as of this writing, is the reason I clicked on Simpson's Paradox earlier this evening, and is a show that's grown a reputation of supposedly being able to predict the future.
+    "The Simpsons" is an animated American sitcom that started in 1989, is still running as of this writing, is the reason I clicked on Simpson's Paradox earlier this evening, and is a show that's grown a reputation of supposedly being able to predict the future.
     From rather low-hanging fruit (FIFA corruption in 2014, the Trump presidency) to some genuinely impressive (NSA surveillance, FaceTime, Bengt R. Holstrom winning the Nobel Prize).
     It is an uncanny list, albeit with a large denominator.
     
     Across all 800+ episodes, with an average of 8.5 to 12 jokes per minute, the show has produced something in the range of 75,000 to 85,000 discrete jokes. Of those, a few dozen have landed close enough to reality to get screenshotted and shared. 
     That is a hit rate of ~0.1%, indistinguishable from chance, coming from writers' rooms throwing enough at the wall that some of it eventually sticks to something that hasn't happened yet, but probably will.
     
-    Simpson's Paradox is about what disappears when you aggregate: the truth inside the subgroups is made opaque by the combined picture. The Simpsons Paradox is the opposite failure: what disappears when you refuse to aggregate, or rather the handful of bullseyes that wash out the 80,000 misses.
+    Simpson's Paradox is about what disappears when you aggregate: the truth inside the subgroups is made opaque by the combined picture. "The Simpsons" Paradox is the opposite failure: what disappears when you refuse to aggregate, or rather the handful of bullseyes that wash out the 80,000 misses.
     
-    We are, it turns out, inconsistent aggregators. We zoom out when zooming in would help, and zoom in when zooming out would. The Berkeley data looks discriminatory in the aggregate and isn't. The Simpsons looks prophetic in the highlight reel and, in fact, isn't.
+    We are, as it turns out, inconsistent aggregators. We zoom out when zooming in would help, and zoom in when zooming out would. The Berkeley data looks discriminatory in the aggregate and isn't. "The Simpsons" looks prophetic in the highlight reel and, in fact, isn't.
     
-    (The Simpsons is my favorite show, by the way)`
+    ("The Simpsons" is my favorite show, by the way)`
   }
 
    
