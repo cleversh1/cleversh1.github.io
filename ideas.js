@@ -82,6 +82,20 @@ const IDEAS = [
     We are, as it turns out, inconsistent aggregators. We zoom out when zooming in would help, and zoom in when zooming out would. The Berkeley data looks discriminatory in the aggregate and isn't. "The Simpsons" looks prophetic in the highlight reel and, in fact, isn't.
     
     ("The Simpsons" is my favorite show, by the way)`
+  },
+{
+    title: "Dying Soldiers",
+    category: "Film, Storytelling, Creative",
+    date: "2026-05-22",
+    body: `In January 2023, I met director George Miller ("Mad Max", "Babe: Pig in the City") on Bondi Beach at a Q&A panel on directing at Flickerfest, where my short film "Speech" was a nominee.
+    He had just finished shooting "Furiosa", the biggest and most expensive film in Australian history. After a career of blockbuster oneupmanship, I asked him if he had developed a conscious approach for directing along the way.
+
+    He likened a director's job to that of a doctor, specifically a field surgeon. A director is always in the midst of making decisions subject to time and resources. And he suggested a framework for prioritization.
+
+    "You're on the battlefield, and all the soldiers are dying. And you go to them one-by-one and say 'okay, he's too far gone, I can't save him', or 'I can save him'."
+
+    Fight the battles you can win. Or, at least, the ones you think you can win.
+   `
   }
 
    
