@@ -93,8 +93,6 @@ const IDEAS = [
     He likened a director's job to that of a doctor, specifically a field surgeon. A director is always in the midst of making decisions subject to time and resources. And he suggested a framework for prioritization.
 
     "You're on the battlefield, and all the soldiers are dying. And you go to them one-by-one and say 'okay, he's too far gone, I can't save him', or 'I can save him'."
-
-    Miller was educated as a doctor before making some of the defining dystopian movies of his generation. Though his imagination ran far and wide, when it came to the realities of mounting a film production, he knew how to spot a lost cause.
    `
   },
    {
