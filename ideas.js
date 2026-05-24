@@ -94,7 +94,20 @@ const IDEAS = [
 
     "You're on the battlefield, and all the soldiers are dying. And you go to them one-by-one and say 'okay, he's too far gone, I can't save him', or 'I can save him'."
 
-    Fight the battles you can win. Or, at least, the ones you think you can win.
+    Miller was educated as a doctor before making some of the defining dystopian movies of his generation. Though his imagination ran far and wide, when it came to the realities of mountin a film production, he knew how to spot a lost cause.
+   `
+  },
+   {
+    title: "Slop",
+    category: "Product, Marketing & Growth",
+    date: "2026-05-23",
+    body: `Brand strategist and University of Melbourne lecturer Eugene Healey suggests that the wave of 'AI slop' is not technology's fault but that generative AI amplifies our aesthetics of consolidation, which has existed in human history long before the launch of ChatGPT.
+    Be it fast-casual restaurants designed around supply chains, film and TV reboots/remakes, John Grisham-esque airport novels following genre patterns, and greyscale interior design of nearly every modern apartment building.
+    In monopolistic industries, fewer players and less competition yield a gravitational pull towards the mean because the pressure to deviate or "be different" is nullified.
+
+    This reveals a larger shift in the narrative of technology from offering the hope of new futures and possibilities to optimizing for the repetition and refurbishment of established cultural norms.
+    We can identify and be repulsed by AI slop, but it is the result of a feedback loop, not a newfound catering to the lowest common denominator.
+    
    `
   }
 
