@@ -157,6 +157,36 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   margin-bottom: 26px;
 }
 
+/* Named landing sections: "Long story short" / "Short story long" */
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 4vw, 1.9rem);
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  margin-bottom: 22px;
+}
+
+/* Editorial bullet list — thin rust tick instead of a disc */
+.bullets { list-style: none; margin: 0; padding: 0; }
+.bullets li {
+  position: relative;
+  padding-left: 1.6em;
+  margin-bottom: 0.8em;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+.bullets li:last-child { margin-bottom: 0; }
+.bullets li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 14px;
+  height: 1.5px;
+  background: var(--accent);
+}
+
 .prose p { color: var(--ink-soft); }
 .prose p + p { margin-top: 0; }
 
@@ -229,8 +259,7 @@ a:hover { text-decoration: underline; text-underline-offset: 3px; }
   font-size: 1.18rem;
   font-weight: 500;
   color: var(--ink);
-  flex: 0 0 auto;
-  max-width: 46%;
+  flex: 1 1 auto;
   transition: color 0.16s;
 }
 .idea__claim {
