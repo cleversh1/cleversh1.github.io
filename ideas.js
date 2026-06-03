@@ -23,7 +23,7 @@
 
 const CATEGORIES = [
   "Product, Marketing & Growth",
-  "Film, Storytelling, Creative",
+  "Film, Writing, Storytelling",
   "Learning",
   "Work"
 ];
@@ -49,7 +49,7 @@ const IDEAS = [
 
    {
     title: "Kill Your Darlings",
-    category: "Film, Storytelling, Creative",
+    category: "Film, Writing, Storytelling",
     date: "2026-05-20",
     body: `David Mamet: "A good writer gets better only by learning to cut, to remove the ornamental, the descriptive, the narrative, and especially the deeply felt and meaningful... The story remains."
     
@@ -85,7 +85,7 @@ const IDEAS = [
   },
 {
     title: "Dying Soldiers",
-    category: "Film, Storytelling, Creative",
+    category: "Film, Writing, Storytelling",
     date: "2026-05-22",
     body: `In January 2023, I met director George Miller ("Mad Max", "Babe: Pig in the City") on Bondi Beach at a Q&A panel on directing at Flickerfest, where my short film "Speech" was a nominee.
     He had just finished shooting "Furiosa", the biggest and most expensive film in Australian history. After a career of blockbuster oneupmanship, I asked him if he had developed a conscious approach for directing along the way.
@@ -105,6 +105,15 @@ const IDEAS = [
 
     This reveals a larger shift in the narrative of technology from offering the hope of new futures and possibilities to optimizing for the repetition and refurbishment of established cultural norms.
     We can identify and be repulsed by AI slop, but it is the result of a feedback loop, not a newfound catering to the lowest common denominator.
+    
+   `
+  },
+   {
+    title: "Contrast Framing",
+    category: "Film, Writing, Storytelling",
+    date: "2026-06-02",
+    body: `"It's not X -- it's Y."
+
     
    `
   }
