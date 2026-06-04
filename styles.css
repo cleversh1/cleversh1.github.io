@@ -20,7 +20,7 @@
 
   --maxw-read:  680px;     /* reading column */
   --maxw-wide:  900px;     /* wider sections */
-  --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --serif: 'Lora', Georgia, 'Times New Roman', serif;
   --sans:  'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
