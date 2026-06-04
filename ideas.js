@@ -22,7 +22,8 @@
    ========================================================= */
 
 const CATEGORIES = [
-  "Product, Marketing & Growth",
+  "Product",
+   "Marketing, Brand & Culture",
   "Film, Writing, Storytelling",
   "Learning",
   "Work"
@@ -97,7 +98,7 @@ const IDEAS = [
   },
    {
     title: "Slop",
-    category: "Product, Marketing & Growth",
+    category: "Product",
     date: "2026-05-23",
     body: `Brand strategist and University of Melbourne lecturer Eugene Healey suggests that the wave of 'AI slop' is not technology's fault but that generative AI amplifies our aesthetics of consolidation, which has existed in human history long before the launch of ChatGPT.
     Be it fast-casual restaurants designed around supply chains, film and TV reboots/remakes, John Grisham-esque airport novels following genre patterns, and greyscale interior design of nearly every modern apartment building.
@@ -134,13 +135,22 @@ const IDEAS = [
     Also, they obviously come from human writing. These are not invented mechanisms.
 
     But writing words is not the same challenge as writing code, even if an LLM might approach them in a similar way. Writing, while it is a craft with techniques that can be learned, is _
-
-
-    
-
     
    `
-  }
+  },
+   {
+    title: "Maxxing",
+    category: "Marketing, Brand & Culture",
+    date: "2026-06-03",
+    body: `Maxxing is a suffix meme that originated with the incel forum term "Looksmaxxing", which reflects the belief that one should become as physically attractive as possible by way of moving fast and breaking things.
+
+    That culture itself has grown but what's really become endemic in media is *insert literally anything*-maxxing. The frame has eclipsed the culture it came from and now everyone is treating aspects of their lives as things to be engineered for the best imagined output.
+    "-maxxing" implies that there is a maximum you have yet to reach, and not doing so is a deficit of your own making. Anxiety is the new aspiration, and while most of the public use of this thing is meant to be funny, the irony is still a kind of armor for people doing the thing. The people making the jokes are still playing the game.
+
+    This trend exists within the language of a generation of people who are increasingly holding a ruler up to their lives and experiences. Every problem is an optimization problem.
+    
+   `
+  },
 
    
 
