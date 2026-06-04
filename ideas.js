@@ -121,9 +121,6 @@ const IDEAS = [
 
     You know it when you see it...
 
-    Thinking of an LLM as a probabilistic word-matcher isn't entirely correct, but it's a useful image when thinking about how we can end up with social media feeds full of the same kind of writing, with all the same tricks.
-    Use AI for any kind of writing, especially if you don't write a first draft yourself, and you will very likely end up with an output that carries one or more 
-
     Contrast framing is a rhetorical technique where one presents two items in sequence, with the intention of making the second appear as distinct and superior to the first. It's rooted in human psychology. 
     If you were to lift a 10lb weight and then lift a 15lb weight, you will notice the difference more than if you just lifted one on its own.
 
