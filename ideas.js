@@ -142,7 +142,7 @@ const IDEAS = [
     title: "Maxxing",
     category: "Marketing, Brand & Culture",
     date: "2026-06-03",
-    body: `Maxxing is a suffix meme that originated with the incel forum term "Looksmaxxing", which reflects the belief that one should become as physically attractive as possible by way of moving fast and breaking things.
+    body: `Maxxing is a suffix meme that originated with the incel forum term "Looksmaxxing", which reflects the belief that one should become as physically attractive as possible by way of extreme and often irreversible measures.
 
     That culture itself has grown but what's really become endemic in media is *insert literally anything*-maxxing. The frame has eclipsed the culture it came from and now everyone is treating aspects of their lives as things to be engineered for the best imagined output.
     "-maxxing" implies that there is a maximum you have yet to reach, and not doing so is a deficit of your own making. Anxiety is the new aspiration, and while most of the public use of this thing is meant to be funny, the irony is still a kind of armor for people doing the thing. The people making the jokes are still playing the game.
