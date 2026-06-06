@@ -110,32 +110,6 @@ const IDEAS = [
    `
   },
    {
-    title: "Contrast Framing (and AI-isms)",
-    category: "Film, Writing, Storytelling",
-    date: "2026-06-02",
-    body: `"It's not X -- it's Y."
-
-    "From X to Y..."
-
-    "No X. No Y. Just Z."
-
-    You know it when you see it...
-
-    Contrast framing is a rhetorical technique where one presents two items in sequence, with the intention of making the second appear as distinct and superior to the first. It's rooted in human psychology. 
-    If you were to lift a 10lb weight and then lift a 15lb weight, you will notice the difference more than if you just lifted one on its own.
-
-    It's also the most widely recognized flag of potentially AI-generated writing, next to the em-dash. 
-    Its spike in usage indicates a larger shift towards AI-generated writing across all forms of media, whereby people are offloading some or much of the work of writing to LLMs, 
-    resulting in millions of sharp, if generic results.
-
-    The writing patterns, like contrast framing, exist for statistical reliability in outputs. They sound like they make sense, and they can apply to essentially every type of question. 
-    Also, they obviously come from human writing. These are not invented mechanisms.
-
-    But writing words is not the same challenge as writing code, even if an LLM might approach them in a similar way. Writing, while it is a craft with techniques that can be learned, is _
-    
-   `
-  },
-   {
     title: "Maxxing",
     category: "Marketing, Brand & Culture",
     date: "2026-06-03",
