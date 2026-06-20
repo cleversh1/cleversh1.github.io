@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ideas — Charlie Leversha</title>
+  <meta name="description" content="A collection of anecdotes and lessons that guide my thoughts, feelings, and pivotal decisions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="nav__brand" href="index.html">Charlie Leversha</a>
+    <div class="nav__links">
+      <a href="index.html">About</a>
+      <a href="work.html">Work</a>
+      <a href="ideas.html" aria-current="page">Ideas</a>
+    </div>
+  </nav>
+
+  <main class="wrap read">
+
+    <header class="ideas-intro">
+      <h1 style="font-size:clamp(2.4rem,7vw,4rem);margin-bottom:24px;">Ideas</h1>
+      <p class="lead">Collected wisdom that has guided my thoughts, feelings, and pivotal decisions.</p>
+    </header>
+
+    <div id="ideas-root"></div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span class="footer__name">Charlie Leversha</span>
+      <div class="footer__links">
+        <a href="index.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="mailto:leversha.charles@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="ideas.js"></script>
+  <script>
+    (function () {
+      var root = document.getElementById('ideas-root');
+
+      function escapeHtml(s) {
+        return String(s)
+          .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+      }
+
+      function formatDate(iso) {
+        var d = new Date(iso + 'T00:00:00');
+        if (isNaN(d)) return iso;
+        return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+      }
+
+      function bodyToParagraphs(body) {
+        return String(body)
+          .split(/\n\s*\n/)
+          .map(function (p) { return p.trim(); })
+          .filter(Boolean)
+          .map(function (p) { return '<p>' + escapeHtml(p) + '</p>'; })
+          .join('');
+      }
+
+      function makeIdea(idea) {
+        var wrap = document.createElement('div');
+        wrap.className = 'idea';
+        wrap.setAttribute('open-state', 'false');
+
+        var panelId = 'panel-' + Math.random().toString(36).slice(2, 9);
+
+        var btn = document.createElement('button');
+        btn.className = 'idea__btn';
+        btn.setAttribute('aria-expanded', 'false');
+        btn.setAttribute('aria-controls', panelId);
+        btn.innerHTML =
+          '<span class="idea__title">' + escapeHtml(idea.title) + '</span>' +
+          '<span class="idea__mark" aria-hidden="true">+</span>';
+
+        var panel = document.createElement('div');
+        panel.className = 'idea__panel';
+        panel.id = panelId;
+        panel.innerHTML =
+          '<div class="idea__panel-inner">' +
+            bodyToParagraphs(idea.body) +
+            (idea.date ? '<span class="idea__date">' + escapeHtml(formatDate(idea.date)) + '</span>' : '') +
+          '</div>';
+
+        btn.addEventListener('click', function () {
+          var open = wrap.getAttribute('open-state') === 'true';
+          if (open) {
+            panel.style.maxHeight = '0px';
+            wrap.setAttribute('open-state', 'false');
+            btn.setAttribute('aria-expanded', 'false');
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+            wrap.setAttribute('open-state', 'true');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+
+        wrap.appendChild(btn);
+        wrap.appendChild(panel);
+        return wrap;
+      }
+
+      var cats = (typeof CATEGORIES !== 'undefined') ? CATEGORIES : [];
+      var ideas = (typeof IDEAS !== 'undefined') ? IDEAS : [];
+
+      cats.forEach(function (cat) {
+        var inCat = ideas
+          .filter(function (i) { return i.category === cat; })
+          .sort(function (a, b) { return (b.date || '').localeCompare(a.date || ''); });
+
+        var section = document.createElement('section');
+        section.className = 'ideas-cat';
+
+        var h = document.createElement('h2');
+        h.className = 'ideas-cat__name';
+        h.textContent = cat;
+        section.appendChild(h);
+
+        if (inCat.length === 0) {
+          var empty = document.createElement('p');
+          empty.className = 'empty-cat';
+          empty.textContent = 'Nothing here yet.';
+          section.appendChild(empty);
+        } else {
+          inCat.forEach(function (idea) { section.appendChild(makeIdea(idea)); });
+        }
+
+        root.appendChild(section);
+      });
+
+      // keep open panels sized correctly on resize
+      window.addEventListener('resize', function () {
+        document.querySelectorAll('.idea[open-state="true"] .idea__panel').forEach(function (p) {
+          p.style.maxHeight = p.scrollHeight + 'px';
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
